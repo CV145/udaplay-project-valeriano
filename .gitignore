@@ -1,0 +1,26 @@
+# Environment variables (contains private API keys)
+.env
+*.env
+starter/.env
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Local ChromaDB vector storage (contains sqlite data)
+**/chroma_db/
+**/chromadb/
